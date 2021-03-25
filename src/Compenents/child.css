@@ -1,0 +1,84 @@
+.main_compoenent{
+   max-width: 300px;
+    min-height: 450px;
+    margin: 0 auto;
+    background-color: #efefef;
+    box-shadow: 0 0 10px gray;
+    margin-top: 50px;
+    padding: 15px ;
+    text-align: center;
+}
+.main{
+    color: grey;
+
+}
+.balance_container{
+    text-align: left;
+
+}
+.balance_container >h4 {
+    color: green;
+}
+.balance_container > h2 {
+    color: red;
+}
+.expense_container{
+    display:flex;
+    justify-content:space-between;
+    background-color:  white;
+    box-shadow: 0 0 10px gray;
+    margin-top: 15px;
+    padding: 5px;
+}
+.expense_container > .income {
+    color:green
+}
+.expense_container > .expense {
+    color: red;
+}
+.history > h4{
+    text-align:left;
+    border-bottom: 1px solid gray;
+}
+.transaction {
+
+    text-align: left;
+    
+}
+.history_list{
+    margin: 0%;
+}
+.history_list > li{
+    display: flex;
+    justify-content: space-between;
+    box-shadow:  0 0 10px gray;
+    background-color: white;
+    margin: 5px 0 ;
+    padding: 5px;
+    margin-left: -15%;
+}
+.transaction > h4{
+    border-bottom: 2px solid gray;
+    margin-bottom: 5%;
+}
+.transaction > form > input {
+    width: 100%;
+    border-radius: 2px;
+    background-color: white;
+    margin:  10  0;
+    padding: 3px;
+}
+.transaction > form > label {
+    font-size: 14px;
+    font-weight:bold;
+    color: red;
+}
+.transaction > input {
+    width: 100%;
+    margin-top: 5px;
+    background-color: green;
+    font-size:medium;
+    color: white;
+    box-shadow: 0 0 5px gray;
+    margin-left: 5px;
+}
